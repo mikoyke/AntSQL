@@ -1,0 +1,74 @@
+1. What type would you choose for the following “numbers”?
+    A person’s telephone number. ---string
+    A person’s height ---float
+    A person’s age    ---int
+    A person’s gender (Male, Female, Prefer Not To Answer)     ---enum
+    A person’s salary           ---decimal
+    A book’s ISBN               ---string
+    A book’s price              ---decimal
+    A book’s shipping weight    ---float
+    A country’s population      ---int
+    The number of stars in the universe     ---decimal
+    The number of employees in each of the small or medium businesses in the     
+    United Kingdom (up to about 50,000 employees per business)      ---int
+
+
+2. What are the difference between value type and reference type variables? What is
+boxing and unboxing?
+    -value type variables are immutable value which store the actual data in stack memory
+    -reference type variables are mutable. they store a reference to their data and the actual data is stored in the heap.
+    -boxing is to convert the value type  to reference type variables
+    -unboxing is to convert the reference type  to value type variables
+    
+3. What is meant by the terms managed resource and unmanaged resource in .NET
+    -Managed resource is handled directly by .NET runtime and be tracked and automatically managed by .NET garbage collector.
+    -Unmanaged resource is nor automatically cleaned up by the garbage collector. Require manual cleanup.
+
+4. What the purpose of Garbage Collector in .NET?
+    -The Garbage collector is to simplify memory management, increase reliability and improve performance in .NET application 
+    by automatically handling the allocation and deallocation of managed memory.
+    
+    
+    
+
+    Controlling Flow and Converting Types
+  
+    1. What happens when you divide an int variable by 0?
+        It results in a DivideByZeroException at runtime. The operation is illegal and cannot be performed.
+        
+    2. What happens when you divide a double variable by 0?
+        It results in Infinity or -Infinity, depending on the sign of the numerator. If you divide 0 by 0, re result is NaN.
+        
+    3. What happens when you overflow an int variable, that is, set it to a value beyond its
+    range?
+        In checked context, this will throw an OverflowException. In unchecked context, it wraps around, causing the variable to cycle through the maximum and minimum values.
+        
+    4. What is the difference between x = y++; and x = ++y;?
+        y++ returns the current value of y before incrementing it, so x will receive the original value of y. In contrast, ++y increments y first and then returns the new value, so x will receive the incremented value.
+    
+    5. What is the difference between break, continue, and return when used inside a loop
+    statement?
+        break: Exits the loop entirely and transfers control to the statement following the loop.
+        continue: Skips the current iteration and jumps to the next iteration of the loop.
+        return: Exits the current method and optionally returns a value to the caller, ending the entire method execution, not just the loop.
+    
+    6. What are the three parts of a for statement and which of them are required?
+        The three parts of a for statement are:
+        Initialization: (e.g., int i = 0)
+        Condition: (e.g., i < 10)
+        Iteration: (e.g., i++)
+        Only the condition is required; the other two can be omitted.
+        
+    7.What is the difference between the = and == operators?
+        = is used to assign a value to a variable
+        == is used to compare two values for equality, it returns true ofr false.
+    
+    8. Does the following statement compile? for ( ; true; ) ;
+        Yes, because the condition is 'true'
+    
+    9. What does the underscore _ represent in a switch expression?
+        In a switch expression, the underscore _ is used as a discard pattern or default case. It represents a "catch-all" for any values that do not match previous cases
+    
+    10. What interface must an object implement to be enumerated over by using the foreach
+    statement?
+        Objects must implement IEnumerable or IEnumerable<T> to be iterated with foreach
