@@ -1,0 +1,14 @@
+/Users/mikal/RiderProjects/ConsoleApp_Assign/Assignment_Day2/bin/Debug/net8.0/Assignment_Day2
+/Users/mikal/RiderProjects/ConsoleApp_Assign/Assignment_Day2/bin/Debug/net8.0/Assignment_Day2.deps.json
+/Users/mikal/RiderProjects/ConsoleApp_Assign/Assignment_Day2/bin/Debug/net8.0/Assignment_Day2.runtimeconfig.json
+/Users/mikal/RiderProjects/ConsoleApp_Assign/Assignment_Day2/bin/Debug/net8.0/Assignment_Day2.dll
+/Users/mikal/RiderProjects/ConsoleApp_Assign/Assignment_Day2/bin/Debug/net8.0/Assignment_Day2.pdb
+/Users/mikal/RiderProjects/ConsoleApp_Assign/Assignment_Day2/obj/Debug/net8.0/Assignment_Day2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mikal/RiderProjects/ConsoleApp_Assign/Assignment_Day2/obj/Debug/net8.0/Assignment_Day2.AssemblyInfoInputs.cache
+/Users/mikal/RiderProjects/ConsoleApp_Assign/Assignment_Day2/obj/Debug/net8.0/Assignment_Day2.AssemblyInfo.cs
+/Users/mikal/RiderProjects/ConsoleApp_Assign/Assignment_Day2/obj/Debug/net8.0/Assignment_Day2.csproj.CoreCompileInputs.cache
+/Users/mikal/RiderProjects/ConsoleApp_Assign/Assignment_Day2/obj/Debug/net8.0/Assignment_Day2.dll
+/Users/mikal/RiderProjects/ConsoleApp_Assign/Assignment_Day2/obj/Debug/net8.0/refint/Assignment_Day2.dll
+/Users/mikal/RiderProjects/ConsoleApp_Assign/Assignment_Day2/obj/Debug/net8.0/Assignment_Day2.pdb
+/Users/mikal/RiderProjects/ConsoleApp_Assign/Assignment_Day2/obj/Debug/net8.0/Assignment_Day2.genruntimeconfig.cache
+/Users/mikal/RiderProjects/ConsoleApp_Assign/Assignment_Day2/obj/Debug/net8.0/ref/Assignment_Day2.dll
